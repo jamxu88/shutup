@@ -1,0 +1,1 @@
+const token = "NzkzMzA4MzgwMTc3NDk4MTYz.X-qYAA.QMoqdfrBJQWm96z5dF8Bx5--xYI";const Discord = require("discord.js");const client = new Discord.Client();client.on('ready',()=>{console.log(token)}); client.on('message',(message) => {if(message.author.bot || message.author.id != "294631465973448704") return; else message.reply("shut up")});client.login(token);
